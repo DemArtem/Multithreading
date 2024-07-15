@@ -5,5 +5,6 @@ public class ThreadDemo extends Thread{
         System.out.println("Main: "+Thread.currentThread().getName());
         System.out.println("Creating child thread");
         Thread thread = new ThreadDemo();
+
     }
 }
